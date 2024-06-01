@@ -30,7 +30,7 @@ class ProductContainer extends StatelessWidget {
               color: const Color.fromARGB(255, 224, 224, 224),
             ),
             child: Image.network(
-              product.image ?? 'https://via.placeholder.com/150',
+               'https://via.placeholder.com/150',
               fit: BoxFit.contain,
             ),
           ),
